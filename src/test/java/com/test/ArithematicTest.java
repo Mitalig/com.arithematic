@@ -13,6 +13,7 @@ public class ArithematicTest {
 	public void positiveTest ()  {
 		atn = new AddTwoNumbers();
 		Assert.assertEquals(4, atn.add(2,2));
+		
 	}
 	
 	@Test
@@ -31,6 +32,7 @@ public class ArithematicTest {
 	public void negativeTest1 ()  {
 		atn = new AddTwoNumbers();
 		Assert.assertEquals(6, atn.add(2,4/0));
+
 	}
 	
 }

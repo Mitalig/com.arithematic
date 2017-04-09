@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Arithematic Suite" >
+
+<test name="ArithematicTest">
+<classes>
+<class name ="com.test.ArithematicTest"/>
+</classes>
+</test>
+
+</suite>
